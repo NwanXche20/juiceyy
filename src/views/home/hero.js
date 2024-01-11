@@ -9,8 +9,8 @@ export default function Hero() {
           Revitalize Your Routine, Fresh, Fruity, Fantastic!
         </h1>
         <h4 className="text-lg md:text-2xl">
-          "Savor the Symphony of Flavors, with Nature's Sweetness &
-          deliciousness. Get the best variety of juices here!”
+          &quot;Savor the Symphony of Flavors, with Nature&apos;s Sweetness &
+          deliciousness. Get the best variety of juices here!&quot;
         </h4>
 
         <div className="flex justify-start items-center gap-4 lg:mt-8 font-secondary-sans font-semibold">
