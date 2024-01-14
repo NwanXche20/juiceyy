@@ -16,9 +16,7 @@ const quicksand = Quicksand({
 
 export default function App({ Component, pageProps }) {
   return (
-    <div
-      className={`bg-main-bg ${jost.variable} ${quicksand.variable} font-sans`}
-    >
+    <div className={`${jost.variable} ${quicksand.variable} font-sans`}>
       <div className="w-[90%] md:w-[85%] max-w-screen-xl mx-auto">
         <Navbar />
         <Component {...pageProps} />

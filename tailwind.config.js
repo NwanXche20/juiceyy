@@ -22,7 +22,7 @@ module.exports = {
         // 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         // 'gradient-conic':
         //   'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        "website-background": "url('/public/images/BG.png')",
+        "website-background": "url('/src/bg-1.png')",
       },
       dropShadow: {
         nav: "0px 4px 15px rgb(138, 138, 138)",

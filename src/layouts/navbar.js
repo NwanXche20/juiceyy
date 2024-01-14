@@ -1,11 +1,13 @@
-import Image from "next/image";
-import IMAGES from "../../public/images";
+import IMAGES from "../images";
 import { FaAlignRight, FaX } from "react-icons/fa6";
 import { useState } from "react";
 
 function LinkItem({ props, children }) {
   return (
-    <li className="text-lg font-medium capitalize cursor-pointer" {...props}>
+    <li
+      className="text-lg font-medium capitalize cursor-pointer hover:font-bold hover:text-xl transition ease-in-out duration-75"
+      {...props}
+    >
       {children}
     </li>
   );
@@ -18,7 +20,7 @@ export default function Navbar() {
     <>
       <nav className="py-4 mb-4 md:mb-8 flex justify-between items-center gap-6 text-black font-secondary-sans font-semibold relative lg:hidden">
         <div className="h-16 w-20 flex justify-center items-center">
-          <Image
+          <img
             src={IMAGES.logo}
             alt=""
             className="max-h-full object-contain cursor-pointer"
@@ -52,7 +54,7 @@ export default function Navbar() {
 
       <nav className="hidden py-4 mb-8 lg:flex justify-between items-center gap-6 text-black font-secondary-sans font-semibold">
         <div className="h-20 w-28 flex justify-center items-center">
-          <Image
+          <img
             src={IMAGES.logo}
             alt=""
             className="max-h-full object-contain cursor-pointer"
@@ -65,7 +67,7 @@ export default function Navbar() {
           <LinkItem>pricing</LinkItem>
           <LinkItem>contact</LinkItem>
         </ul>
-        <div className="border border-text-color rounded-lg text-center px-4 py-2 font-medium cursor-pointer">
+        <div className="border border-text-color rounded-lg text-center px-4 py-2 font-medium cursor-pointer hover:scale-105 hover:bg-text-color hover:text-white transition-all ease-in-out duration-300">
           Sign up
         </div>
       </nav>

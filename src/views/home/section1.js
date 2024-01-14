@@ -1,5 +1,4 @@
-import Image from "next/image";
-import IMAGES from "../../../public/images";
+import IMAGES from "../../images";
 
 function FruitCard({ src, down }) {
   return (
@@ -12,7 +11,7 @@ function FruitCard({ src, down }) {
           "linear-gradient(180deg, #FFE2C8 0%, #FFF3C8 0.01%, #FEBA44 85.42%)",
       }}
     >
-      <Image
+      <img
         src={src}
         alt=""
         className="max-h-[80%] max-w-[80%] w-full h-full object-contain"

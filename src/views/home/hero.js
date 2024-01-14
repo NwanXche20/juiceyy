@@ -1,5 +1,4 @@
-import Image from "next/image";
-import IMAGES from "../../../public/images";
+import IMAGES from "../../images";
 
 export default function Hero() {
   return (
@@ -14,16 +13,16 @@ export default function Hero() {
         </h4>
 
         <div className="flex justify-start items-center gap-4 lg:mt-8 font-secondary-sans font-semibold">
-          <button className="border border-text-color rounded-lg text-center px-4 py-2 bg-text-color text-white text-sm">
+          <button className="border border-text-color rounded-lg text-center px-4 py-2 bg-text-color text-white text-sm capitalize hover:scale-105 transition-all ease-in-out duration-300">
             view menu
           </button>
-          <button className="border border-text-color rounded-lg text-center px-4 py-2 text-text-color text-sm">
+          <button className="border border-text-color rounded-lg text-center px-4 py-2 text-text-color text-sm capitalize hover:scale-105 hover:font-bold hover:border-2 transition-all ease-in-out duration-300">
             discount
           </button>
         </div>
       </div>
       <div className="hidden lg:block h-[500px] object-contain w-[70%]">
-        <Image src={IMAGES.heroImage} className="max-h-full" />
+        <img src={IMAGES.heroImage} className="max-h-full" />
       </div>
     </div>
   );

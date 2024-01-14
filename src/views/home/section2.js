@@ -1,5 +1,4 @@
-import Image from "next/image";
-import IMAGES from "../../../public/images";
+import IMAGES from "../../images";
 import { FaRegHeart, FaArrowRight } from "react-icons/fa6";
 
 function FruitCard({ src, title, desc, price }) {
@@ -16,7 +15,7 @@ function FruitCard({ src, title, desc, price }) {
       </div>
 
       <div className="flex justify-center items-center h-[60%]">
-        <Image src={src} alt="" className="w-full h-full object-contain" />
+        <img src={src} alt="" className="w-full h-full object-contain" />
       </div>
 
       <div>

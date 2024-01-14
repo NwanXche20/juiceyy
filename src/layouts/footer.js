@@ -1,5 +1,4 @@
-import Image from "next/image";
-import IMAGES from "../../public/images";
+import IMAGES from "../images";
 import {
   FaPhoneFlip,
   FaRegEnvelope,
@@ -85,7 +84,7 @@ function LogoTab() {
   return (
     <div className="grid gap-4">
       <div className="h-28 w-28 flex justify-center items-center">
-        <Image
+        <img
           src={IMAGES.logo}
           alt=""
           className="max-h-full object-contain cursor-pointer"
