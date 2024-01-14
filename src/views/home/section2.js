@@ -4,7 +4,7 @@ import { FaRegHeart, FaArrowRight } from "react-icons/fa6";
 function FruitCard({ src, title, desc, price }) {
   return (
     <div
-      className={`h-[400px] lg:h-[450px] w-full rounded-[40px] lg:rounded-[50px] shadow-xl flex flex-col justify-between gap-3 pt-8 pb-10 lg:pb-14 px-6 relative`}
+      className={`h-[400px] lg:h-[450px] w-full rounded-[40px] lg:rounded-[50px] shadow-xl flex flex-col justify-between gap-3 pt-8 pb-10 lg:pb-14 px-6 relative hover:scale-105 transition-all ease-in-out duration-300`}
       style={{
         backgroundImage:
           "linear-gradient(180.52deg, rgba(255, 243, 200, 0.62) 0.41%, #FFA51E 99.48%), linear-gradient(0deg, #FFFFFF, #FFFFFF)",

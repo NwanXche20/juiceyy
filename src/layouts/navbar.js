@@ -5,7 +5,7 @@ import { useState } from "react";
 function LinkItem({ props, children }) {
   return (
     <li
-      className="text-lg font-medium capitalize cursor-pointer hover:font-bold hover:text-xl transition ease-in-out duration-75"
+      className="text-lg font-medium capitalize cursor-pointer hover:font-bold hover:text-xl transition-all ease-in-out duration-300"
       {...props}
     >
       {children}
@@ -67,9 +67,9 @@ export default function Navbar() {
           <LinkItem>pricing</LinkItem>
           <LinkItem>contact</LinkItem>
         </ul>
-        <div className="border border-text-color rounded-lg text-center px-4 py-2 font-medium cursor-pointer hover:scale-105 hover:bg-text-color hover:text-white transition-all ease-in-out duration-300">
+        <button className="border border-text-color rounded-lg text-center px-4 py-2 font-medium cursor-pointer hover:scale-110 hover:bg-text-color hover:text-white transition-all ease-in-out duration-300">
           Sign up
-        </div>
+        </button>
       </nav>
     </>
   );

@@ -1,7 +1,7 @@
 const IMAGES = {
   logo: "https://res.cloudinary.com/dikleyjwz/image/upload/v1705243520/LOGO_i21cy1.png",
   heroImage:
-    "https://res.cloudinary.com/dikleyjwz/image/upload/v1705243387/hero-Orange_xohoo6.png",
+    "https://res.cloudinary.com/dikleyjwz/image/upload/v1705250279/heroOrange_ybslvj.png",
   watermelon:
     "https://res.cloudinary.com/dikleyjwz/image/upload/v1705246015/section-1-Watermelon_fk5mdj.png",
   grape:

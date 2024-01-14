@@ -47,7 +47,7 @@ function ContactUs() {
           <input
             type="submit"
             name="submit"
-            className="capitalize bg-primary text-black text-sm px-8 py-2 rounded-xl cursor-pointer"
+            className="capitalize bg-primary text-black text-sm px-8 py-2 rounded-xl cursor-pointer hover:bg-text-color hover:text-white transition-all ease-in-out duration-300"
           />
         </div>
       </form>
@@ -109,7 +109,7 @@ function LogoTab() {
 
 function Social({ children }) {
   return (
-    <div className="flex justify-center items-center w-12 h-12 rounded-full bg-contact-white hover:bg-primary hover:text-contact-white transition ease-in-out duration-300 cursor-pointer">
+    <div className="flex justify-center items-center w-12 h-12 rounded-full bg-contact-white hover:bg-primary hover:text-contact-white transition ease-in-out duration-500 cursor-pointer">
       {children}
     </div>
   );
