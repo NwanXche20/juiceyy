@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="py-4 mb-4 md:mb-8 flex justify-between items-center gap-6 text-black font-secondary-sans font-semibold relative lg:hidden">
-        <div className="h-16 w-20 flex justify-center items-center">
+        <div className="h-16 w-20 flex justify-center items-center -ml-4">
           <img
             src={IMAGES.logo}
             alt=""
@@ -53,7 +53,7 @@ export default function Navbar() {
       </div>
 
       <nav className="hidden py-4 mb-8 lg:flex justify-between items-center gap-6 text-black font-secondary-sans font-semibold">
-        <div className="h-20 w-28 flex justify-center items-center">
+        <div className="h-20 w-28 flex justify-center items-center -ml-6">
           <img
             src={IMAGES.logo}
             alt=""
