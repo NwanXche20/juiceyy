@@ -24,7 +24,7 @@ function ContactUs() {
             required
             placeholder="Full name"
             type="text"
-            className="bg-contact-white placeholder:text-gray-500 text-sm px-4 py-2 rounded-xl"
+            className="bg-contact-white placeholder:text-gray-500 text-sm px-4 py-2 rounded-xl outline-0"
           />
         </div>
         <div>
@@ -32,7 +32,7 @@ function ContactUs() {
             required
             placeholder="Your email"
             type="email"
-            className="bg-contact-white placeholder:text-gray-500 text-sm px-4 py-2 rounded-xl"
+            className="bg-contact-white placeholder:text-gray-500 text-sm px-4 py-2 rounded-xl outline-0"
           />
         </div>
         <div>
@@ -40,14 +40,14 @@ function ContactUs() {
             required
             placeholder="Your message..."
             rows={2}
-            className="bg-contact-white placeholder:text-gray-500 text-sm px-4 py-2 rounded-xl w-64 resize-none"
+            className="bg-contact-white placeholder:text-gray-500 text-sm px-4 py-2 rounded-xl w-64 resize-none outline-0"
           ></textarea>
         </div>
         <div>
           <input
             type="submit"
             name="submit"
-            className="capitalize bg-primary text-black text-sm px-8 py-2 rounded-xl cursor-pointer hover:bg-text-color hover:text-white transition-all ease-in-out duration-300"
+            className="capitalize bg-primary text-black text-sm px-8 py-2 rounded-xl outline-0 cursor-pointer hover:bg-text-color hover:text-white transition-all ease-in-out duration-300"
           />
         </div>
       </form>
